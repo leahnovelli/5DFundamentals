@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #A8A8A8;
+}
+
+.container{
+	width: 768px;
+	height: 1024px;
+	margin: auto;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.textbox1 {
+	width: 600px;
+	height: 276px;
+	margin: auto;
+	position: absolute; 
+	text-align: center;
+	line-height: 10px;
+ 	top: 30px;
+	left: 60px;
+}
+
+.holdercenter{
+	width: 69px;
+	height: 63px;
+	float: left;	
+	position: absolute; 
+ 	top: 510px;
+	left: 280px;
+}
+
+.holderpurplefirst{
+	width: 99px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 500px;
+	left: 140px;
+	transform: rotate(-110deg);
+}
+
+.holderredfirst{
+	width: 95px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 400px;
+	left: 140px;
+	transform: rotate(-70deg);
+}
+
+.holderorangefirst{
+	width: 90px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 330px;
+	left: 210px;
+	transform: rotate(-30deg);
+}
+
+.holderyellowfirst{
+	width: 102px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 320px;
+	left: 310px;
+	transform: rotate(20deg);
+}
+
+.holdergreenfirst{
+	width: 98px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 390px;
+	left: 400px;
+	transform: rotate(80deg);
+}
+
+.holderbluefirst{
+	width: 90px;
+	height: 193px;
+	float: left;	
+	position: absolute; 
+ 	top: 490px;
+	left: 400px;
+	transform: rotate(110deg);
+}
+
+.stem{
+	width: 181px;
+	height: 450px;
+	float: left;	
+	position: absolute; 
+ 	top: 570px;
+	left: 190px;
+}
+
+.clickarrow{
+	width: 90px;
+	float: left;	
+	position: absolute; 
+ 	top: 650px;
+	left: 400px;
+	transform: rotate(10deg);
+}
+
+.happyface{
+	width: 400px;
+	height: 398px;
+	float: left;	
+	position: absolute; 
+ 	top: 60px;
+	left: 170px;
+}
+
+.sadface{
+	width: 400px;
+	height: 409px;
+	float: left;	
+	position: absolute; 
+ 	top: 50px;
+	left: 180px;
+}
+
+.message1{
+	width: 450px;
+	height: 377px;
+	position: absolute; 
+	float: left;
+ 	top: 460px;
+	left: 150px;
+}
+
+.message2{
+	width: 450px;
+	height: 337px;
+	position: absolute; 
+	float: left;
+ 	top: 490px;
+	left: 150px;
+}
+
+
+.backarrow{
+	width: 150px;
+	height: 105px;
+	float: left;	
+	position: absolute; 
+ 	top: 870px;
+	left: 40px;
+}
+
+
+.fallingpetals{
+	width: 214px;
+	height: 600px;
+	float: left;	
+	position: absolute; 
+ 	top: 0px;
+	left: 240px;
+}
+
+.questionarrow1{
+	width: 70px;
+	height: 121px;
+	float: left;	
+	position: absolute; 
+ 	top: 590px;
+	left: 220px;
+}
+
+.questionarrow2{
+	width: 70px;
+	height: 121px;
+	float: left;	
+	position: absolute; 
+ 	top: 595px;
+	left: 390px;
+	transform: rotate(-50deg);
+}
+
+.whereshould{
+	width: 250px;
+	height: 190px;
+	float: left;	
+	position: absolute; 
+ 	top: 59px;
+	left: 30px;
+	transform: rotate(0deg);
+}
+
+.thepetalfall{
+	width: 275px;
+	height: 216px;
+	float: left;	
+	position: absolute; 
+ 	top: 360px;
+	left: 430px;
+	transform: rotate(0deg);
+}
+
+.leftpetal{
+	width: 125px;
+	height: 75px;
+	float: left;	
+	position: absolute; 
+ 	top: 750px;
+	left: 100px;
+}
+
+.rightpetal{
+	width: 125px;
+	height: 75px;
+	float: left;	
+	position: absolute; 
+ 	top: 750px;
+	left: 450px;
+}
+
+
