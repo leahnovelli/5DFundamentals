@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */	
+
+
+body {
+	background-color: black;
+} 
+
+h1 	{
+	color: steelblue;
+    font-family: verdana;
+    font-size: 48px;}
+h2 	{
+	color: cadetblue;
+    font-family: times;
+    font-size: 38px;}
+h3 	{
+	color: #995552;
+    font-family: verdana;
+    font-size: 30px;}
+h4 	{
+	color: slategray;
+    font-family: georgia;
+    font-size: 24px;}
+h5 	{
+	color: maroon;
+    font-family: verdana;
+    font-size: 24px;}
+p    {
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: left;
+	color: #FFF;} 
+p.small {
+	font-size: 12px; 
+	line-height: 14px;
+	font-style: normal;}	
+
+span.links {
+    color: #FFF;
+}
+.container {
+	width: 800px;
+	height: 600px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+#blue2_marker{
+	display: block;
+	position: relative;
+    height: auto;
+	width: 800px;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: center;
+	color: white;
+}
+
+
+#green2_marker{
+ 	display: block;
+	position: relative;
+	height: auto;
+	width: 800px;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: center;
+	color: white;
+}
+
+#purple_marker{
+ 	display: block;
+	position: relative;
+	height: auto;
+	width: 800px;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: center;
+	color: white;
+}
+
+
+
+#blue2_marker:hover + #red_reveal  {
+	visibility: visible;
+}
+
+#green2_marker:hover + #green_reveal  {
+	visibility: visible;
+}
+
+#purple_marker:hover + #purple_reveal  {
+	visibility: visible;
+}
+
+#green_reveal { /*this is the red that is in back*/
+    display: block;
+    visibility: hidden;
+	width: 800px;
+	height: auto;
+	/* Position the tooltip */
+	position: relative;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	border-radius: 32px;
+	z-index: 1;
+}
+
+#red_reveal { /*this is the red that is in back*/
+    display: block;
+    visibility: hidden;
+	width: 800px;
+	height: auto;
+	/* Position the tooltip */
+	position: relative;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	border-radius: 32px;
+	z-index: 1;
+}
+
+#purple_reveal { /*this is the red that is in back*/
+    display: block;
+    visibility: hidden;
+	width: 800px;
+	height: auto;
+	/* Position the tooltip */
+	position: relative;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	border-radius: 0px;
+	z-index: 1;
+}
